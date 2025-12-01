@@ -1,5 +1,5 @@
 {
-  "name": "@csh/ui",
+  "name": "@chosicon/ui",
   "version": "0.1.0",
   "exports": {
     "./*": "./src/*.tsx"
@@ -11,8 +11,8 @@
     "check-types": "tsc --noEmit"
   },
   "devDependencies": {
-    "@csh/eslint-config": "workspace:*",
-    "@csh/tsconfig": "workspace:*",
+    "@chosicon/eslint-config": "workspace:*",
+    "@chosicon/tsconfig": "workspace:*",
     "@types/node": "^22.15.3",
     "@types/react": "19.2.2",
     "@types/react-dom": "19.2.2",

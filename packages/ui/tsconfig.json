@@ -1,5 +1,5 @@
 {
-  "extends": "@csh/tsconfig/base.json",
+  "extends": "@chosicon/tsconfig/base.json",
   "compilerOptions": {
     "baseUrl": "."
   },

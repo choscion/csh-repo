@@ -1,5 +1,5 @@
 {
-  "name": "csh-repo",
+  "name": "chosicon-repo",
   "private": true,
   "scripts": {
     "build": "turbo run build",
@@ -16,8 +16,8 @@
   },
   "devDependencies": {
     "@changesets/cli": "^2.29.8",
-    "@csh/eslint-config": "workspace:^",
-    "@csh/prettier-config": "workspace:^",
+    "@chosicon/eslint-config": "workspace:^",
+    "@chosicon/prettier-config": "workspace:^",
     "prettier": "^3.6.2",
     "turbo": "^2.6.1",
     "typescript": "5.9.2"

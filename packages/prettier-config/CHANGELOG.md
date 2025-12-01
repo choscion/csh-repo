@@ -1,5 +1,11 @@
 # @choscion/prettier-config
 
+## 1.0.1
+
+### Patch Changes
+
+- c422504: Fix Packages name
+
 ## 1.0.0
 
 ### Major Changes

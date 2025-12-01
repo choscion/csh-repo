@@ -1,5 +1,5 @@
 {
-  "name": "@csh/eslint-config",
+  "name": "@chosicon/eslint-config",
   "version": "0.1.0",
   "type": "module",
   "scripts": {

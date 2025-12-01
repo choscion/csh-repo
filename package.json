@@ -12,11 +12,12 @@
     "start:docs": "turbo start:docs --filter ui-docs",
     "build:docs": "turbo build:docs",
     "build:watch": "turbo build:watch",
-    "publish": "npm publish",
-    "deploy": "turbo run deploy"
+    "publish": "changeset publish"
   },
   "devDependencies": {
     "@changesets/cli": "^2.29.8",
+    "@csh/eslint-config": "workspace:^",
+    "@csh/prettier-config": "workspace:^",
     "prettier": "^3.6.2",
     "turbo": "^2.6.1",
     "typescript": "5.9.2"

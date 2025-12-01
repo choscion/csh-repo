@@ -1,6 +1,6 @@
 {
   "name": "@csh/tsconfig",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "scripts": {
     "version": "pnpm version",
     "deploy": "pnpm publish"

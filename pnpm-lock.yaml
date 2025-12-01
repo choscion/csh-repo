@@ -11,6 +11,12 @@ importers:
       '@changesets/cli':
         specifier: ^2.29.8
         version: 2.29.8(@types/node@22.15.3)
+      '@csh/eslint-config':
+        specifier: workspace:^
+        version: link:packages/eslint-config
+      '@csh/prettier-config':
+        specifier: workspace:^
+        version: link:packages/prettier-config
       prettier:
         specifier: ^3.6.2
         version: 3.6.2

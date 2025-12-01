@@ -30,7 +30,7 @@ const meta = {
 
 export default meta
 
-export const 텍스트 = ({color, size, bold, text = "Text"}: TextProps & {text: string}) => {
+export const 텍스트 = ({color, size, bold, text = "Text입니다."}: TextProps & {text: string}) => {
   return (
     <Text color={color} size={size} bold={bold}>
       {text}

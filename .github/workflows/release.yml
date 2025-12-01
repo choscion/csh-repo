@@ -46,6 +46,7 @@ jobs:
               id: changesets
               uses: changesets/action@v1
               with:
+                  token: ${{ secrets.PAT_TOKEN }}
                   publish: pnpm run publish
               env:
                   GITHUB_TOKEN: ${{ secrets.PAT_TOKEN }}

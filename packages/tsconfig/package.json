@@ -1,6 +1,6 @@
 {
   "name": "@choscion/tsconfig",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "scripts": {
     "version": "pnpm version",
     "deploy": "pnpm publish"

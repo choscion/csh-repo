@@ -1,5 +1,13 @@
 # ui-docs
 
+## 1.0.1
+
+### Patch Changes
+
+- c422504: Fix Packages name
+- Updated dependencies [c422504]
+  - @choscion/ui@1.0.1
+
 ## 1.0.0
 
 ### Major Changes

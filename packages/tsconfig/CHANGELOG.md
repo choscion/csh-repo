@@ -1,5 +1,11 @@
 # @csh/tsconfig
 
+## 1.0.0
+
+### Major Changes
+
+- b930c96: fix
+
 ## 0.1.0
 
 ### Minor Changes

@@ -1,5 +1,16 @@
 # ui-docs
 
+## 1.0.0
+
+### Major Changes
+
+- b930c96: fix
+
+### Patch Changes
+
+- Updated dependencies [b930c96]
+  - @chosicon/ui@1.0.0
+
 ## 0.2.0
 
 ### Minor Changes

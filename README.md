@@ -18,9 +18,9 @@ This Turborepo includes the following packages/apps:
 
 - `docs`: a [Next.js](https://nextjs.org/) app
 - `web`: another [Next.js](https://nextjs.org/) app
-- `@chosicon/ui`: a stub React component library shared by both `web` and `docs` applications
-- `@chosicon/eslint-config`: `eslint` configurations (includes `eslint-config-next` and `eslint-config-prettier`)
-- `@chosicon/typescript-config`: `tsconfig.json`s used throughout the monorepo
+- `@choscion/ui`: a stub React component library shared by both `web` and `docs` applications
+- `@choscion/eslint-config`: `eslint` configurations (includes `eslint-config-next` and `eslint-config-prettier`)
+- `@choscion/typescript-config`: `tsconfig.json`s used throughout the monorepo
 
 Each package/app is 100% [TypeScript](https://www.typescriptlang.org/).
 

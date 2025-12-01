@@ -11,10 +11,10 @@ importers:
       '@changesets/cli':
         specifier: ^2.29.8
         version: 2.29.8(@types/node@22.15.3)
-      '@chosicon/eslint-config':
+      '@choscion/eslint-config':
         specifier: workspace:^
         version: link:packages/eslint-config
-      '@chosicon/prettier-config':
+      '@choscion/prettier-config':
         specifier: workspace:^
         version: link:packages/prettier-config
       prettier:
@@ -29,7 +29,7 @@ importers:
 
   apps/ui-docs:
     dependencies:
-      '@chosicon/ui':
+      '@choscion/ui':
         specifier: workspace:*
         version: link:../../packages/ui
       react:
@@ -117,10 +117,10 @@ importers:
         specifier: ^19.2.0
         version: 19.2.0(react@19.2.0)
     devDependencies:
-      '@chosicon/eslint-config':
+      '@choscion/eslint-config':
         specifier: workspace:*
         version: link:../eslint-config
-      '@chosicon/tsconfig':
+      '@choscion/tsconfig':
         specifier: workspace:*
         version: link:../tsconfig
       '@types/node':

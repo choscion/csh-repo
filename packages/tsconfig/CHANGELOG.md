@@ -1,4 +1,4 @@
-# @csh/tsconfig
+# @choscion/tsconfig
 
 ## 1.0.0
 

@@ -1,4 +1,4 @@
-import { config as reactConfig } from "@chosicon/eslint-config/react-internal";
+import { config as reactConfig } from "@choscion/eslint-config/react-internal";
 
 // 모든 워크스페이스에 공통 적용
 export default [

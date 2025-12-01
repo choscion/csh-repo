@@ -1,4 +1,4 @@
-# @csh/ui
+# @choscion/ui
 
 ## 1.0.0
 

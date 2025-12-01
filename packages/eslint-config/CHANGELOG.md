@@ -1,4 +1,4 @@
-# @csh/eslint-config
+# @choscion/eslint-config
 
 ## 1.0.0
 

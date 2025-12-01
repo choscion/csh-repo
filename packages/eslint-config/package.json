@@ -1,8 +1,10 @@
 {
-  "name": "@repo/eslint-config",
+  "name": "@csh/eslint-config",
   "version": "0.0.0",
   "type": "module",
-  "private": true,
+  "scripts": {
+    "deploy": "pnpm publish"
+  },
   "exports": {
     "./base": "./base.js",
     "./next-js": "./next.js",
@@ -20,5 +22,8 @@
     "globals": "^16.5.0",
     "typescript": "^5.9.2",
     "typescript-eslint": "^8.46.3"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }

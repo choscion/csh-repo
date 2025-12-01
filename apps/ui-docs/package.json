@@ -1,0 +1,26 @@
+{
+  "name": "ui-docs",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start:docs": "storybook dev -p 6006",
+    "build:storybook": "storybook build",
+    "build:docs": "storybook build -o ./dist --disable-telemetry"
+  },
+  "dependencies": {
+    "@csh/ui": "workspace:*",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0"
+  },
+  "devDependencies": {
+    "@storybook/addon-essentials": "^8.4.0",
+    "@storybook/addon-interactions": "^8.4.0",
+    "@storybook/react": "^8.4.0",
+    "@storybook/react-vite": "^8.4.0",
+    "@storybook/test": "^8.4.0",
+    "storybook": "8.6.14",
+    "typescript": "5.9.2",
+    "vite": "^5.4.11"
+  }
+}

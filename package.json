@@ -4,17 +4,28 @@
   "scripts": {
     "build": "turbo run build",
     "dev": "turbo run dev",
-    "lint": "turbo run lint",
-    "format": "prettier --write \"**/*.{ts,tsx,md}\"",
-    "check-types": "turbo run check-types"
+    "lint": "eslint '**/*.{js,jsx,ts,tsx}'",
+    "lint:fix": "pnpm run lint --fix",
+    "prettier": "prettier --check '**/*.{ts,tsx,js,jsx,json}'",
+    "prettier:fix": "prettier --write '**/*.{ts,tsx,js,jsx,json}'",
+    "check-types": "turbo run check-types",
+    "start:docs": "turbo start:docs --filter ui-docs",
+    "build:docs": "turbo build:docs",
+    "build:watch": "turbo build:watch",
+    "publish": "npm publish",
+    "deploy": "turbo run deploy"
   },
   "devDependencies": {
+    "@changesets/cli": "^2.29.8",
     "prettier": "^3.6.2",
     "turbo": "^2.6.1",
     "typescript": "5.9.2"
   },
   "packageManager": "pnpm@9.0.0",
   "engines": {
-    "node": ">=18"
+    "node": ">=20"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }

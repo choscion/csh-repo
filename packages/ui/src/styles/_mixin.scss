@@ -1,0 +1,15 @@
+// 색상 변수 선언
+@mixin setGlobalColors($map) {
+  @each $name, $value in $map {
+    --#{$name}: #{$value};
+  }
+}
+
+// 클래스 선언
+@mixin setColorClass($map) {
+  @each $name, $value in $map {
+    .color-#{$name} {
+      color: $value;
+    }
+  }
+}

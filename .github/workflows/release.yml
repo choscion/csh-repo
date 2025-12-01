@@ -15,7 +15,7 @@ jobs:
             - name: Checkout Repo
               uses: actions/checkout@v3
               with:
-                  token: ${{ secrets.PAT_TOKEN }}
+                  token: ${{ secrets.PAT_TOKEN_CSH }}
                   fetch-depth: 0
 
             - name: Setup Node.js 22.x
@@ -29,7 +29,7 @@ jobs:
                     //registry.npmjs.org/:_authToken=$NPM_TOKEN
                   EOF
               env:
-                  NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
+                  NPM_TOKEN: ${{ secrets.NPM_TOKEN_CSH }}
 
             - name: Enable corepack
               run: corepack enable
@@ -46,8 +46,8 @@ jobs:
               id: changesets
               uses: changesets/action@v1
               with:
-                  token: ${{ secrets.PAT_TOKEN }}
+                  token: ${{ secrets.PAT_TOKEN_CSH }}
                   publish: pnpm run publish
               env:
-                  GITHUB_TOKEN: ${{ secrets.PAT_TOKEN }}
-                  NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
+                  GITHUB_TOKEN: ${{ secrets.PAT_TOKEN_CSH }}
+                  NPM_TOKEN: ${{ secrets.NPM_TOKEN_CSH }}

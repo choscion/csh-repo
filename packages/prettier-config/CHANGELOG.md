@@ -1,5 +1,12 @@
 # @choscion/prettier-config
 
+## 1.1.0
+
+### Minor Changes
+
+- 047f64c: fix
+- b7ac21e: Fix lint and prettier
+
 ## 1.0.1
 
 ### Patch Changes

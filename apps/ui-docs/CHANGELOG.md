@@ -1,5 +1,13 @@
 # ui-docs
 
+## 1.0.2
+
+### Patch Changes
+
+- Updated dependencies [047f64c]
+- Updated dependencies [b7ac21e]
+  - @choscion/ui@1.1.0
+
 ## 1.0.1
 
 ### Patch Changes

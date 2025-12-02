@@ -1,10 +1,10 @@
-import type {Color} from "../Colors"
-import {Fragment} from "react/jsx-runtime"
-import type {HTMLAttributes} from "react"
-
-import classNames from "classnames/bind"
-import styles from "./Text.module.scss"
+import type { HTMLAttributes } from "react"
 import React from "react"
+import { Fragment } from "react/jsx-runtime"
+import classNames from "classnames/bind"
+
+import type { Color } from "../Colors"
+import styles from "./Text.module.scss"
 
 const cx = classNames.bind(styles)
 
@@ -17,14 +17,7 @@ export interface TextProps extends HTMLAttributes<HTMLDivElement> {
   inline?: boolean
 }
 
-export function Text({
-  children,
-  color = "grey900",
-  size = "t3",
-  bold = false,
-  inline = false,
-  ...props
-}: TextProps = {}) {
+export function Text({ children, color = "grey900", size = "t3", bold = false, inline = false, ...props }: TextProps = {}) {
   if (typeof children !== "string") {
     // ?
     return (

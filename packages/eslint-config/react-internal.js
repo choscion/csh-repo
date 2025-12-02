@@ -1,10 +1,12 @@
-import js from "@eslint/js"
 import eslintConfigPrettier from "eslint-config-prettier"
-import tseslint from "typescript-eslint"
-import pluginReactHooks from "eslint-plugin-react-hooks"
 import pluginReact from "eslint-plugin-react"
+import pluginReactHooks from "eslint-plugin-react-hooks"
 import globals from "globals"
-import {config as baseConfig} from "./base.js"
+import tseslint from "typescript-eslint"
+
+import js from "@eslint/js"
+
+import { config as baseConfig } from "./base.js"
 
 /**
  * A custom ESLint configuration for libraries that use React.
@@ -29,7 +31,7 @@ export const config = [
     plugins: {
       "react-hooks": pluginReactHooks,
     },
-    settings: {react: {version: "detect"}},
+    settings: { react: { version: "detect" } },
     rules: {
       ...pluginReactHooks.configs.recommended.rules,
       // React scope no longer necessary with new JSX transform.

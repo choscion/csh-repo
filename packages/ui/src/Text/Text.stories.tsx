@@ -1,6 +1,6 @@
-import {colors} from "../Colors"
-import {Text} from "."
-import type {TextProps} from "."
+import { colors } from "../Colors"
+import type { TextProps } from "."
+import { Text } from "."
 
 const meta = {
   title: "base/Text",
@@ -20,17 +20,17 @@ const meta = {
       },
     },
     bold: {
-      control: {type: "boolean"},
+      control: { type: "boolean" },
     },
     text: {
-      control: {type: "text"},
+      control: { type: "text" },
     },
   },
 }
 
 export default meta
 
-export const 텍스트 = ({color, size, bold, text = "Text입니다."}: TextProps & {text: string}) => {
+export const 텍스트 = ({ color, size, bold, text = "Text입니다." }: TextProps & { text: string }) => {
   return (
     <Text color={color} size={size} bold={bold}>
       {text}

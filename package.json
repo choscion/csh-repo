@@ -18,9 +18,19 @@
     "@changesets/cli": "^2.29.8",
     "@choscion/eslint-config": "workspace:^",
     "@choscion/prettier-config": "workspace:^",
+    "husky": "^9.1.7",
+    "lint-staged": "^16.2.7",
     "prettier": "^3.6.2",
     "turbo": "^2.6.1",
     "typescript": "5.9.2"
+  },
+  "lint-staged": {
+    "*.{ts,tsx,js,jsx}": [
+      "eslint --fix"
+    ],
+    "*.{ts,tsx,js,jsx,json,css,scss,md}": [
+      "prettier --write"
+    ]
   },
   "packageManager": "pnpm@9.0.0",
   "engines": {

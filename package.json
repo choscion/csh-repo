@@ -25,8 +25,12 @@
     "typescript": "5.9.2"
   },
   "lint-staged": {
-    "*.{ts,tsx,js,jsx}": ["eslint --fix"],
-    "*.{ts,tsx,js,jsx,json,css,scss,md}": ["prettier --write"]
+    "*.{ts,tsx,js,jsx}": [
+      "eslint --fix"
+    ],
+    "*.{ts,tsx,js,jsx,json,css,scss,md}": [
+      "prettier --write"
+    ]
   },
   "packageManager": "pnpm@9.0.0",
   "engines": {
